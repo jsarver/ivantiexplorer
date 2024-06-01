@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ivantiexplorer"
+version = "0.1.0"
+description = "Gui interface for ivanti api library"
+authors = ["Josh Sarver <Josh.sarver@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nicegui = "^1.4.26"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
